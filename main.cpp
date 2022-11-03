@@ -8,7 +8,7 @@ int main() {
     int snt_counter = 0; 
     int wrd_counter = 0;
     string stroka;
-    cout << "Введите предложение: " << endl;
+    cout << "Введите предложение: " << "\n" << endl;
     getline(cin, stroka);
 
     for (int i = 0; i < stroka.size(); i++){
@@ -52,6 +52,6 @@ int main() {
 
         }
 
-    cout << "Количество предложений в строке = " << snt_counter << endl;
+    cout << "\n" << "Количество предложений в строке = " << snt_counter << endl;
     cout << "Количество слов в строке = " << wrd_counter << endl;
 }
